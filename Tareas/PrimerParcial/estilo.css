@@ -1,0 +1,101 @@
+.contenedor{
+    
+    border: 2px solid black;
+    justify-content:center ;
+    width: 900px;
+    height: 550px;
+
+
+}
+.encabezado{
+    display: flex;
+    flex-wrap: wrap;
+    width: 900px;
+    height: 200px;
+    background-color: khaki;
+}
+.espacio{
+    width: 220px;
+    height: 200px;
+    
+}
+
+.izquierda{
+    width: 60px;
+    height: 200px;
+    
+    
+
+}
+.derecha{
+    width: 620px;
+    height: 200px;
+    
+    
+}
+image{
+    width: 60px;
+    height: 60px;
+}
+.medio{
+    display: flex;
+    flex-wrap: wrap;
+    width: 900px;
+    height: 300px;
+    
+    background-color: aqua;
+}
+.izquier{
+    width: 670px;
+    height: 300px;
+    background-color: rgb(243, 167, 198);
+}
+.dere{
+    width: 230px;
+    height: 300px;
+    background-color: rgb(148, 223, 148);
+
+}
+.container{
+    width: 230px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+}
+.item{
+    
+    background-color: rgb(237, 245, 249);
+    width: 150px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 5px;
+    text-align: center;
+
+}
+.pie{
+    display: flex;
+    flex-wrap: wrap;
+    width: 900px;
+    height: 50px;
+    
+    background-color: rgb(255, 0, 132);
+
+}
+.izq{
+    width: 315px;
+    height: 50px;
+    background-color: red;
+}
+.me{
+    width: 270px;
+    height: 50px;
+    background-color:yellow;
+}
+.der{
+    width: 315px;
+    height: 50px;
+    background-color:green;
+}
+
+
