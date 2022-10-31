@@ -1,0 +1,99 @@
+.contenedor{
+    
+    border: 2px solid black;
+    justify-content:center ;
+    width: 900px;
+    height: 550px;
+
+
+}
+.encabezado{
+    display: flex;
+    flex-wrap: wrap;
+    width: 900px;
+    height: 200px;
+    background-color: khaki;
+}
+.espacio{
+    width: 180px;
+    height: 200px;
+    
+}
+
+.izquierda{
+    width: 80px;
+    height: 200px;
+    
+    
+
+}
+.derecha{
+    width: 600px;
+    height: 200px;
+    
+    
+}
+img{
+    width: 80px;
+    height: 80px;
+}
+.medio{
+    display: flex;
+    flex-wrap: wrap;
+    width: 900px;
+    height: 250px;
+    
+    background-color: aqua;
+}
+h1{
+    color: red;
+}
+h2{
+    color: blue;
+}
+.izquier{
+    width: 100px;
+    height: 250px;
+    background-color: rgb(243, 167, 198);
+}
+.med{
+    width: 700px;
+    height: 250px;
+    background-color: rgb(219, 43, 114);
+}
+.dere{
+    width: 100px;
+    height: 250px;
+    background-color: rgb(148, 223, 148);
+
+}
+.container1{
+    width: 100px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.item{
+    
+    background-color: rgb(237, 245, 249);
+    width: 90px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 5px;
+    text-align: center;
+
+}
+.pie{
+    display: flex;
+    flex-wrap: wrap;
+    width: 900px;
+    height: 100px;
+    
+    
+    background-color: red;
+
+}
+
+
+
