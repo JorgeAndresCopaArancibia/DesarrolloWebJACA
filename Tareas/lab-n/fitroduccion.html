@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduccion de datos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="cargarCarreras()">
+    <div class="container border">
+        <h3>Introduzca el numero de alumnos</h3>
+        <form action="javascript:addDatos()" id="form-login">
+            <input type="number" name="numero" id="numero"><br><br>
+            <input type="submit" value="INGRESAR" >
+            <input type="button" value="Limpiar" onclick="Limpiar()">
+        </form>
+    </div>
+    <div class="form-table border">
+        <form action="javascript:Agregar()">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>CU</th>
+                        <th>Sexo</th>
+                        <th>Carrera</th>
+                    </tr>
+                </thead>
+                <tbody id="formulario">
+                    <tr>
+
+                    </tr>
+                </tbody>
+            </table>
+            <input type="submit" value="Guardar">
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
